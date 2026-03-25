@@ -3,7 +3,19 @@ import pickle
 import numpy as np
 import pandas as pd
 import shap
-
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background-image: url("https://github.com/427Supraja/churn_prediction/blob/dac229ccc41501f9989f6b7306bb63a4d9392c04/image.jpeg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 # ================= PAGE CONFIG =================
 st.set_page_config(page_title="SMART CHURN PREDICTION", layout="wide")
 st.markdown("""
