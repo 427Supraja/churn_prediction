@@ -7,7 +7,7 @@ st.markdown(
     """
     <style>
     .stApp {
-        background-image: url("https://github.com/427Supraja/churn_prediction/blob/dac229ccc41501f9989f6b7306bb63a4d9392c04/image.jpeg");
+        background-image: url("image.jpeg");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
